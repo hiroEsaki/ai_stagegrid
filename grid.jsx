@@ -196,8 +196,6 @@ function makeGrid(mainUnit, subUnit, isSubUnit, isMarker, gridWidth, gridDepth, 
 	
 	mainUnit = mainUnit * scale;
 	subUnit = subUnit * scale;
-	//mainUnit = getPts(mainUnit * scale);
-	//subUnit = getPts(subUnit * scale);
 
     var doc = app.activeDocument;
 	var layer = findOrCreateLayer("grid");
